@@ -6,8 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
+    
     protected $fillable = [
-        'name', 'description', 'price', 'category_id'
+        'name', 'description', 'price', 'image_url', 'category_id'
+    ];
+
+    protected $casts = [
+        'price'     => 'float',
+        'category_id'    => 'integer',
     ];
 
     public function Category(){
