@@ -30,7 +30,7 @@ class CreatePurchaseRequest extends FormRequest
             'client_lastname' => 'required|min:2|max:30|alpha',
             'client_phone' => 'required|numeric|string',
             'client_address' => 'required|string|min:5',
-            'products' => 'required|array|size:1',
+            'products' => 'required|array|between:1,100',
             'products.*.id' => 'required|integer|exists:products',
             'products.*.quantity' => 'required|integer|min:1',
         ];
