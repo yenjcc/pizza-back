@@ -17,7 +17,7 @@ class PurchaseController extends Controller
      */
     public function index()
     {
-        $purchases = Purchase::all();
+        $purchases = Purchase::with('details.product:id,name,description,price')->get();
         
         return response()->json([
             "purchases" => $purchases
