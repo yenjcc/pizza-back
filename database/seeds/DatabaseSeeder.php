@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,6 +13,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+
+        DB::table('users')->insert([
+            'id' => 1,
+            'name' => 'Joe', 
+            'email' => 'admin@admin.com', 
+            'password' => Hash::make('12345678'),
+        ]);
+
         DB::table('categories')->insert([[
             'id' => 1,
             'name' => 'Pizza',
