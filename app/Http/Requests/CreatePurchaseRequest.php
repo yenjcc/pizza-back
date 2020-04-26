@@ -41,17 +41,17 @@ class CreatePurchaseRequest extends FormRequest
         return [
             'client_name.required' => 'Name is required',
             'client_name.alpha'  => 'Name must be only letters',
-            'client_name.min'  => 'Name must be at least 2 charanteres',
-            'client_name.max'  => 'Name must be shorter than 30 charanteres',
+            'client_name.min'  => 'Name must be at least 2 characters',
+            'client_name.max'  => 'Name must be shorter than 30 characters',
 
             'client_lastname.required' => 'Lastname is required',
             'client_lastname.alpha'  => 'Lastname must be only letters',
-            'client_lastname.min'  => 'Lastname must be at least 2 charanteres',
-            'client_lastname.max'  => 'Lastname must be shorter than 30 charanteres',
+            'client_lastname.min'  => 'Lastname must be at least 2 characters',
+            'client_lastname.max'  => 'Lastname must be shorter than 30 characters',
 
             'client_address.required' => 'Address is required',
             'client_address.string'  => 'Address must be string',
-            'client_address.min'  => 'Address must be at least 5 charanteres',
+            'client_address.min'  => 'Address must be at least 5 characters',
 
             'client_phone.required' => 'Phone is required',
             'client_phone.string'  => 'Phone must be string',
