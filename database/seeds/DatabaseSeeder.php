@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Margherita',
             'description' => 'Tomato sauce, mozzarella, and oregano',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/YyHwn0P',
+            'image_url' => 'https://i.ibb.co/nnxtdP6/1.jpg',
             'category_id' => 1,
         ]);
 
@@ -36,7 +36,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Marinara',
             'description' => 'Tomato sauce, garlic and basil',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/hRt0w4S',
+            'image_url' => 'https://i.ibb.co/gMBYhfx/2.jpg',
             'category_id' => 1,
         ]);
 
@@ -45,7 +45,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Quattro Stagioni',
             'description' => 'Tomato sauce, mozzarella, mushrooms, ham, artichokes, olives, and oregano',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/pbT3BLB',
+            'image_url' => 'https://i.ibb.co/PFy5v6v/3.jpg',
             'category_id' => 1,
         ]);
 
@@ -54,7 +54,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Carbonara',
             'description' => 'Tomato sauce, mozzarella, parmesan, eggs, and bacon',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/HNvXdgw',
+            'image_url' => 'https://i.ibb.co/XyBV8J0/4.jpg',
             'category_id' => 1,
         ]);
 
@@ -63,7 +63,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Frutti di Mare',
             'description' => 'Tomato sauce and seafood',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/dm6d7s5',
+            'image_url' => 'https://i.ibb.co/BnjXwHC/5.jpg',
             'category_id' => 1,
         ]);
 
@@ -72,7 +72,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Quattro Formaggi',
             'description' => 'Tomato sauce, mozzarella, parmesan, gorgonzola cheese, artichokes, and oregano',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/xHHy7Vm',
+            'image_url' => 'https://i.ibb.co/jRRdr7V/6.jpg',
             'category_id' => 1,
         ]);
 
@@ -81,7 +81,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Napoli',
             'description' => 'Tomato sauce, mozzarella, oregano, anchovies',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/ZGMDfZ8',
+            'image_url' => 'https://i.ibb.co/WG2JHTy/7.jpg',
             'category_id' => 1,
         ]);
 
@@ -90,7 +90,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Pizza al Pesto',
             'description' => 'Tomato, mozzarella, Genoese pesto, pine nuts, and olives',
             'price' => 10.00,
-            'image_url' => 'https://ibb.co/w0Zr5pz',
+            'image_url' => 'https://i.ibb.co/mDrFfhc/8.jpg',
             'category_id' => 1,
         ]);
 
